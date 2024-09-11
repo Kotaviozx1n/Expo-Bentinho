@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases de Aleatórias</title>
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body id="corpo">
+    
+<header>
+    <div class="container">
+    
+        <div class="flex">
+
+            <section class="fundo" >
+                <button onclick="ModoEscuro (true)"><i id="iconedark" class="bi bi-moon-stars-fill"></i></button>
+                <button onclick="ModoEscuro (false)"><i id="iconelight" class="bi bi-brightness-high-fill"></i></button>
+            </section>
+
+            <div class="frase">
+                <a href="login.html"><button class="login">login</button></a>
+                <a href="register.html"><button class="register">register</button></a>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<main>
+    <section id="corpo" class="titulo">
+        <h1>Frases de Aleatórias</h1>
+    </section>
+
+    <section id="corpo" class="sectionFrase">
+        <form action="" id="fraseForm">
+            <button  id="fraseForm1" class="botaoFrase" type="submit">
+                Clique aqui para ver uma frase
+            </button>
+        </form>
+    </section>
+
+    <section  id="corpo"class="informacao">
+        <table id="tabela" class="tabela"></table>
+    </section>
+</main>
+
+<footer>
+    <section class="imgGithub">
+        <a  id="iconGithubText" class="linkGithub" href="https://github.com/Kotaviozx1n"><i id="iconGithub" class="bi bi-github"></i>Kotaviozx1n</a>
+    </section>
+</footer>
+
+<script src="./Assets/js/index.js"></script>
+</body>
+</html>
